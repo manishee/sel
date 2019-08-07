@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameterization learning]">
+  <test thread-count="5" name="Parameterization unittest(failed)">
+    <parameter name="fname" value="Angelo"/>
+    <parameter name="lname" value="Dipaolo"/>
+    <parameter name="browser" value="ie"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+    <classes>
+      <class name="com.testng.qa.testcases.Parameterization">
+        <methods>
+          <include name="setUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testng.qa.testcases.Parameterization -->
+    </classes>
+  </test> <!-- Parameterization unittest(failed) -->
+</suite> <!-- Failed suite [Parameterization learning] -->
